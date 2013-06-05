@@ -21,7 +21,7 @@ Features
 Project State
 ===============
 
-Today's goal is to let the user be able to enter and view a list of tasks.
+Today's goal is to make it possible for the user to enter and view a list of tasks.
 
 Author
 ============
