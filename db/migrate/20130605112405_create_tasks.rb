@@ -6,3 +6,9 @@ class CreateTasks < ActiveRecord::Migration
     end
   end
 end
+
+# class AddListIdToTasks
+#   def change
+#     add_column :list_id, :integer
+#   end
+# end

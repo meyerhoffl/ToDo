@@ -1,7 +1,10 @@
 ToDo::Application.routes.draw do
-  root to: "tasks#index"
+  root to: "lists#index"
 
-  resources :tasks, only: [:index, :new, :create]
+  resources :tasks, only: [:index, :new, :create, :destroy]
+  resources :lists, only: [:index, :new, :create, :show, :edit, :destroy]
+
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
@@ -51,7 +54,7 @@ ToDo::Application.routes.draw do
 
   # You can have the root of your site routed with "root"
   # just remember to delete public/index.html.
-  root :to => 'tasks#index'
+  root :to => 'lists#index'
 
   # See how all your routes lay out with "rake routes"
 
