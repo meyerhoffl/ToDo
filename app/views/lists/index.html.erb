@@ -14,18 +14,19 @@
 </ul>
 
   <h4>New Task</h4>
-<%= form_for @task do |f| %>
-  <%= f.label "Add Task" %>
-  <%= f.text_field :title %>
-  <%= f.label "To this list:" %>
-  <select id="select_list">
-     <% @lists.each do |list| %>
-  <option value=""><%= list.title %>, <%= list.id %> </option>
- <% end %>
-</select>
-  <%= f.submit "Add Task" %>
+<%= form_for @list_task do |f|%>
+<select id="task_list_id" name = "">
+  <% @lists.each do |list| %>
+    <option value=<%= list.id %>><%= list.title %>, <%= list.id %> </option>
 <% end %>
-
+</select>
+<%= form_for @task do |t| %>
+  <%= t.label "Add Task" %>
+  <%= t.text_field :title %>
+  <%= t.label "To this list:" %>
+  <%= t.submit "Add Task" %>
+  <% end %>
+<% end %>
 
 
 <h4>New List</h4>
