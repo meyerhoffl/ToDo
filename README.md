@@ -3,8 +3,7 @@ ToDo
 
 Purpose
 ==========
-This is a learning project for NSS. After creating a blog app by following along in class, we are now
-creating a basic To Do app individually. 
+My very first Rails application for the Nashville Software School; it's purpose is as an exercise to learn Rails.
 
 Usage
 =======
@@ -15,13 +14,13 @@ Features
 1. User should be able to enter and view a list of tasks.
 2. User should be able to edit tasks.
 3. User should be able to maintain multiple lists.
-4. User should be able to reorder tasks.
-5. User should be able to mark finished tasks.
+
 
 Project State
 ===============
 
-Today's goal is to make it possible for the user to enter and view a list of tasks.
+User can now enter and view a list of tasks, and maintain multiple lists of multiple tasks. The ability to mark tasks 
+as completed still needs to be added.
 
 Author
 ============
