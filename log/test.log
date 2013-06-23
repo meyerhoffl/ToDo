@@ -1,0 +1,1539 @@
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (54.2ms)[0m  INSERT INTO "tasks" ("created_at", "title", "updated_at") VALUES (?, ?, ?)  [["created_at", Wed, 05 Jun 2013 16:35:39 UTC +00:00], ["title", "Walk Peggy"], ["updated_at", Wed, 05 Jun 2013 16:35:39 UTC +00:00]]
+  [1m[36m (1.4ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "tasks" 
+Started GET "/tasks" for 127.0.0.1 at 2013-06-05 11:35:43 -0500
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (4.1ms)[0m  INSERT INTO "tasks" ("created_at", "title", "updated_at") VALUES (?, ?, ?)  [["created_at", Wed, 05 Jun 2013 16:40:36 UTC +00:00], ["title", "Walk Peggy"], ["updated_at", Wed, 05 Jun 2013 16:40:36 UTC +00:00]]
+  [1m[36m (1.3ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "tasks" 
+Started GET "/tasks" for 127.0.0.1 at 2013-06-05 11:40:40 -0500
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (52.2ms)[0m  INSERT INTO "tasks" ("created_at", "title", "updated_at") VALUES (?, ?, ?)  [["created_at", Wed, 05 Jun 2013 16:45:51 UTC +00:00], ["title", "Walk Peggy"], ["updated_at", Wed, 05 Jun 2013 16:45:51 UTC +00:00]]
+  [1m[36m (1.6ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM "tasks" 
+Started GET "/tasks" for 127.0.0.1 at 2013-06-05 11:45:55 -0500
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (4.0ms)[0m  INSERT INTO "tasks" ("created_at", "title", "updated_at") VALUES (?, ?, ?)  [["created_at", Wed, 05 Jun 2013 16:48:29 UTC +00:00], ["title", "Walk Peggy"], ["updated_at", Wed, 05 Jun 2013 16:48:29 UTC +00:00]]
+  [1m[36m (40.1ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "tasks" 
+Started GET "/tasks" for 127.0.0.1 at 2013-06-05 11:48:32 -0500
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (44.8ms)[0m  INSERT INTO "tasks" ("created_at", "title", "updated_at") VALUES (?, ?, ?)  [["created_at", Wed, 05 Jun 2013 16:52:15 UTC +00:00], ["title", "Walk Peggy"], ["updated_at", Wed, 05 Jun 2013 16:52:15 UTC +00:00]]
+  [1m[36m (1.6ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "tasks" 
+Started GET "/tasks" for 127.0.0.1 at 2013-06-05 11:52:19 -0500
+Processing by TasksController#index as HTML
+  [1m[36mTask Load (0.1ms)[0m  [1mSELECT "tasks".* FROM "tasks" [0m
+  Rendered tasks/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 17ms (Views: 13.2ms | ActiveRecord: 0.7ms)
+Started GET "/assets/application.css" for 127.0.0.1 at 2013-06-05 11:52:19 -0500
+Compiled application.css  (1ms)  (pid 12783)
+Served asset /application.css - 200 OK (19ms)
+Started GET "/assets/application.js" for 127.0.0.1 at 2013-06-05 11:52:19 -0500
+Compiled jquery.js  (4ms)  (pid 12783)
+Compiled jquery_ujs.js  (0ms)  (pid 12783)
+Compiled application.js  (77ms)  (pid 12783)
+Served asset /application.js - 200 OK (90ms)
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (4.1ms)[0m  INSERT INTO "tasks" ("created_at", "title", "updated_at") VALUES (?, ?, ?)  [["created_at", Wed, 05 Jun 2013 19:48:14 UTC +00:00], ["title", "Walk Peggy"], ["updated_at", Wed, 05 Jun 2013 19:48:14 UTC +00:00]]
+  [1m[36m (1.9ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "tasks" 
+Started GET "/tasks" for 127.0.0.1 at 2013-06-05 14:48:14 -0500
+Processing by TasksController#index as HTML
+  [1m[36mTask Load (0.2ms)[0m  [1mSELECT "tasks".* FROM "tasks" [0m
+  Rendered tasks/index.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 13ms (Views: 11.3ms | ActiveRecord: 0.2ms)
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "tasks" 
+Started GET "/" for 127.0.0.1 at 2013-06-05 14:48:14 -0500
+Processing by TasksController#index as HTML
+  [1m[36mTask Load (0.2ms)[0m  [1mSELECT "tasks".* FROM "tasks" [0m
+Completed 200 OK in 3ms (Views: 2.0ms | ActiveRecord: 0.2ms)
+Started GET "/tasks/new" for 127.0.0.1 at 2013-06-05 14:48:14 -0500
+Processing by TasksController#new as HTML
+Completed 200 OK in 47ms (Views: 46.0ms | ActiveRecord: 0.0ms)
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (4.0ms)[0m  INSERT INTO "tasks" ("created_at", "title", "updated_at") VALUES (?, ?, ?)  [["created_at", Wed, 05 Jun 2013 19:49:44 UTC +00:00], ["title", "Walk Peggy"], ["updated_at", Wed, 05 Jun 2013 19:49:44 UTC +00:00]]
+  [1m[36m (1.6ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "tasks" 
+Started GET "/tasks" for 127.0.0.1 at 2013-06-05 14:49:44 -0500
+Processing by TasksController#index as HTML
+  [1m[36mTask Load (0.2ms)[0m  [1mSELECT "tasks".* FROM "tasks" [0m
+  Rendered tasks/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 13ms (Views: 11.3ms | ActiveRecord: 0.2ms)
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "tasks" 
+Started GET "/" for 127.0.0.1 at 2013-06-05 14:49:44 -0500
+Processing by TasksController#index as HTML
+  [1m[36mTask Load (0.2ms)[0m  [1mSELECT "tasks".* FROM "tasks" [0m
+Completed 200 OK in 3ms (Views: 1.9ms | ActiveRecord: 0.2ms)
+Started GET "/tasks/new" for 127.0.0.1 at 2013-06-05 14:49:44 -0500
+Processing by TasksController#new as HTML
+Completed 200 OK in 11ms (Views: 10.7ms | ActiveRecord: 0.0ms)
+Started POST "/tasks" for 127.0.0.1 at 2013-06-05 14:49:44 -0500
+Processing by TasksController#create as HTML
+  Parameters: {"utf8"=>"✓", "task"=>{"title"=>"Buy presents"}, "commit"=>"Submit Task"}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "tasks" ("created_at", "title", "updated_at") VALUES (?, ?, ?)[0m  [["created_at", Wed, 05 Jun 2013 19:49:44 UTC +00:00], ["title", "Buy presents"], ["updated_at", Wed, 05 Jun 2013 19:49:44 UTC +00:00]]
+  [1m[35m (1.5ms)[0m  commit transaction
+Redirected to http://www.example.com/
+Completed 302 Found in 6ms (ActiveRecord: 2.0ms)
+Started GET "/" for 127.0.0.1 at 2013-06-05 14:49:44 -0500
+Processing by TasksController#index as HTML
+  [1m[36mTask Load (0.2ms)[0m  [1mSELECT "tasks".* FROM "tasks" [0m
+Completed 200 OK in 3ms (Views: 2.0ms | ActiveRecord: 0.2ms)
+Started GET "/tasks" for 127.0.0.1 at 2013-06-05 14:49:44 -0500
+Processing by TasksController#index as HTML
+  [1m[35mTask Load (0.2ms)[0m  SELECT "tasks".* FROM "tasks" 
+Completed 200 OK in 3ms (Views: 1.6ms | ActiveRecord: 0.2ms)
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (4.3ms)[0m  INSERT INTO "tasks" ("created_at", "title", "updated_at") VALUES (?, ?, ?)  [["created_at", Wed, 05 Jun 2013 19:50:46 UTC +00:00], ["title", "Walk Peggy"], ["updated_at", Wed, 05 Jun 2013 19:50:46 UTC +00:00]]
+  [1m[36m (1.5ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "tasks" 
+Started GET "/tasks" for 127.0.0.1 at 2013-06-05 14:50:46 -0500
+Processing by TasksController#index as HTML
+  [1m[36mTask Load (0.2ms)[0m  [1mSELECT "tasks".* FROM "tasks" [0m
+  Rendered tasks/index.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 13ms (Views: 11.3ms | ActiveRecord: 0.2ms)
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "tasks" 
+Started GET "/" for 127.0.0.1 at 2013-06-05 14:50:46 -0500
+Processing by TasksController#index as HTML
+  [1m[36mTask Load (0.2ms)[0m  [1mSELECT "tasks".* FROM "tasks" [0m
+Completed 200 OK in 3ms (Views: 2.0ms | ActiveRecord: 0.2ms)
+Started GET "/tasks/new" for 127.0.0.1 at 2013-06-05 14:50:46 -0500
+Processing by TasksController#new as HTML
+Completed 200 OK in 12ms (Views: 10.9ms | ActiveRecord: 0.0ms)
+Started POST "/tasks" for 127.0.0.1 at 2013-06-05 14:50:46 -0500
+Processing by TasksController#create as HTML
+  Parameters: {"utf8"=>"✓", "task"=>{"title"=>"Buy presents"}, "commit"=>"Submit Task"}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "tasks" ("created_at", "title", "updated_at") VALUES (?, ?, ?)[0m  [["created_at", Wed, 05 Jun 2013 19:50:46 UTC +00:00], ["title", "Buy presents"], ["updated_at", Wed, 05 Jun 2013 19:50:46 UTC +00:00]]
+  [1m[35m (1.2ms)[0m  commit transaction
+Redirected to http://www.example.com/
+Completed 302 Found in 5ms (ActiveRecord: 1.8ms)
+Started GET "/" for 127.0.0.1 at 2013-06-05 14:50:46 -0500
+Processing by TasksController#index as HTML
+  [1m[36mTask Load (0.2ms)[0m  [1mSELECT "tasks".* FROM "tasks" [0m
+Completed 200 OK in 3ms (Views: 2.0ms | ActiveRecord: 0.2ms)
+Started GET "/tasks" for 127.0.0.1 at 2013-06-05 14:50:46 -0500
+Processing by TasksController#index as HTML
+  [1m[35mTask Load (0.2ms)[0m  SELECT "tasks".* FROM "tasks" 
+Completed 200 OK in 3ms (Views: 1.7ms | ActiveRecord: 0.2ms)
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (39.7ms)[0m  INSERT INTO "tasks" ("created_at", "title", "updated_at") VALUES (?, ?, ?)  [["created_at", Thu, 06 Jun 2013 15:01:19 UTC +00:00], ["title", "Walk Peggy"], ["updated_at", Thu, 06 Jun 2013 15:01:19 UTC +00:00]]
+  [1m[36m (1.3ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "tasks" 
+Started GET "/tasks" for 127.0.0.1 at 2013-06-06 10:01:19 -0500
+Processing by TasksController#index as HTML
+  [1m[36mTask Load (0.3ms)[0m  [1mSELECT "tasks".* FROM "tasks" [0m
+  Rendered tasks/index.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 36ms (Views: 33.2ms | ActiveRecord: 0.3ms)
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "tasks" 
+Started GET "/" for 127.0.0.1 at 2013-06-06 10:01:19 -0500
+Processing by TasksController#index as HTML
+  [1m[36mTask Load (0.2ms)[0m  [1mSELECT "tasks".* FROM "tasks" [0m
+Completed 200 OK in 3ms (Views: 2.0ms | ActiveRecord: 0.2ms)
+Started GET "/tasks/new" for 127.0.0.1 at 2013-06-06 10:01:19 -0500
+Processing by TasksController#new as HTML
+Completed 200 OK in 98ms (Views: 97.2ms | ActiveRecord: 0.0ms)
+Started POST "/tasks" for 127.0.0.1 at 2013-06-06 10:01:19 -0500
+Processing by TasksController#create as HTML
+  Parameters: {"utf8"=>"✓", "task"=>{"title"=>"Buy presents"}, "commit"=>"Submit Task"}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.8ms)[0m  [1mINSERT INTO "tasks" ("created_at", "title", "updated_at") VALUES (?, ?, ?)[0m  [["created_at", Thu, 06 Jun 2013 15:01:19 UTC +00:00], ["title", "Buy presents"], ["updated_at", Thu, 06 Jun 2013 15:01:19 UTC +00:00]]
+  [1m[35m (1.2ms)[0m  commit transaction
+Redirected to http://www.example.com/
+Completed 302 Found in 6ms (ActiveRecord: 2.1ms)
+Started GET "/" for 127.0.0.1 at 2013-06-06 10:01:19 -0500
+Processing by TasksController#index as HTML
+  [1m[36mTask Load (0.2ms)[0m  [1mSELECT "tasks".* FROM "tasks" [0m
+Completed 200 OK in 3ms (Views: 2.1ms | ActiveRecord: 0.2ms)
+Started GET "/tasks" for 127.0.0.1 at 2013-06-06 10:01:19 -0500
+Processing by TasksController#index as HTML
+  [1m[35mTask Load (0.2ms)[0m  SELECT "tasks".* FROM "tasks" 
+Completed 200 OK in 3ms (Views: 1.7ms | ActiveRecord: 0.2ms)
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+  [1m[36m (0.9ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (33.3ms)[0m  [1mINSERT INTO "tasks" ("created_at", "title", "updated_at") VALUES (?, ?, ?)[0m  [["created_at", Thu, 06 Jun 2013 15:02:09 UTC +00:00], ["title", "Walk Peggy"], ["updated_at", Thu, 06 Jun 2013 15:02:09 UTC +00:00]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "tasks" [0m
+Started GET "/tasks" for 127.0.0.1 at 2013-06-06 10:02:09 -0500
+Processing by TasksController#index as HTML
+  [1m[35mTask Load (0.2ms)[0m  SELECT "tasks".* FROM "tasks" 
+  Rendered tasks/index.html.erb within layouts/application (4.3ms)
+Completed 200 OK in 40ms (Views: 37.1ms | ActiveRecord: 0.2ms)
+  [1m[36m (0.7ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "tasks" [0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+  [1m[36m (0.6ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (4.2ms)[0m  [1mINSERT INTO "tasks" ("created_at", "title", "updated_at") VALUES (?, ?, ?)[0m  [["created_at", Thu, 06 Jun 2013 15:03:51 UTC +00:00], ["title", "Walk Peggy"], ["updated_at", Thu, 06 Jun 2013 15:03:51 UTC +00:00]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "tasks" [0m
+Started GET "/tasks" for 127.0.0.1 at 2013-06-06 10:03:51 -0500
+Processing by TasksController#index as HTML
+  [1m[35mTask Load (0.2ms)[0m  SELECT "tasks".* FROM "tasks" 
+  Rendered tasks/index.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 13ms (Views: 11.6ms | ActiveRecord: 0.2ms)
+  [1m[36m (0.8ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+Started GET "/" for 127.0.0.1 at 2013-06-06 10:03:51 -0500
+Processing by TasksController#index as HTML
+  [1m[36mTask Load (0.2ms)[0m  [1mSELECT "tasks".* FROM "tasks" [0m
+Completed 200 OK in 3ms (Views: 2.4ms | ActiveRecord: 0.2ms)
+Started GET "/tasks/new" for 127.0.0.1 at 2013-06-06 10:03:51 -0500
+Processing by TasksController#new as HTML
+Completed 200 OK in 78ms (Views: 77.6ms | ActiveRecord: 0.0ms)
+Started POST "/tasks" for 127.0.0.1 at 2013-06-06 10:03:51 -0500
+Processing by TasksController#create as HTML
+  Parameters: {"utf8"=>"✓", "task"=>{"title"=>"Buy presents"}, "commit"=>"Submit Task"}
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "tasks" ("created_at", "title", "updated_at") VALUES (?, ?, ?)[0m  [["created_at", Thu, 06 Jun 2013 15:03:51 UTC +00:00], ["title", "Buy presents"], ["updated_at", Thu, 06 Jun 2013 15:03:51 UTC +00:00]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+Redirected to http://www.example.com/
+Completed 302 Found in 3ms (ActiveRecord: 0.6ms)
+Started GET "/" for 127.0.0.1 at 2013-06-06 10:03:51 -0500
+Processing by TasksController#index as HTML
+  [1m[36mTask Load (0.1ms)[0m  [1mSELECT "tasks".* FROM "tasks" [0m
+Completed 200 OK in 3ms (Views: 1.9ms | ActiveRecord: 0.1ms)
+Started GET "/tasks" for 127.0.0.1 at 2013-06-06 10:03:51 -0500
+Processing by TasksController#index as HTML
+  [1m[35mTask Load (0.2ms)[0m  SELECT "tasks".* FROM "tasks" 
+Completed 200 OK in 2ms (Views: 1.5ms | ActiveRecord: 0.2ms)
+  [1m[36m (0.7ms)[0m  [1mrollback transaction[0m
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+  [1m[36m (0.6ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (67.6ms)[0m  [1mINSERT INTO "lists" ("created_at", "lists", "title", "updated_at") VALUES (?, ?, ?, ?)[0m  [["created_at", Thu, 06 Jun 2013 20:06:15 UTC +00:00], ["lists", nil], ["title", "Grocery List"], ["updated_at", Thu, 06 Jun 2013 20:06:15 UTC +00:00]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "lists" [0m
+Started GET "/lists" for 127.0.0.1 at 2013-06-06 15:06:15 -0500
+  [1m[35m (0.7ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "tasks" ("created_at", "title", "updated_at") VALUES (?, ?, ?)[0m  [["created_at", Thu, 06 Jun 2013 20:06:15 UTC +00:00], ["title", "Walk Peggy"], ["updated_at", Thu, 06 Jun 2013 20:06:15 UTC +00:00]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "tasks" [0m
+Started GET "/tasks" for 127.0.0.1 at 2013-06-06 15:06:15 -0500
+Processing by TasksController#index as HTML
+  [1m[35mTask Load (0.2ms)[0m  SELECT "tasks".* FROM "tasks" 
+Completed 200 OK in 16ms (Views: 13.1ms | ActiveRecord: 0.2ms)
+  [1m[36m (0.7ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.2ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+Started GET "/" for 127.0.0.1 at 2013-06-06 15:06:15 -0500
+Processing by TasksController#index as HTML
+  [1m[36mTask Load (0.2ms)[0m  [1mSELECT "tasks".* FROM "tasks" [0m
+Completed 200 OK in 3ms (Views: 2.1ms | ActiveRecord: 0.2ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Started GET "/" for 127.0.0.1 at 2013-06-06 15:06:15 -0500
+Processing by TasksController#index as HTML
+  [1m[35mTask Load (0.3ms)[0m  SELECT "tasks".* FROM "tasks" 
+Completed 200 OK in 3ms (Views: 2.0ms | ActiveRecord: 0.3ms)
+Started GET "/tasks/new" for 127.0.0.1 at 2013-06-06 15:06:15 -0500
+Processing by TasksController#new as HTML
+Completed 200 OK in 97ms (Views: 96.4ms | ActiveRecord: 0.0ms)
+Started POST "/tasks" for 127.0.0.1 at 2013-06-06 15:06:15 -0500
+Processing by TasksController#create as HTML
+  Parameters: {"utf8"=>"✓", "task"=>{"title"=>"Buy presents"}, "commit"=>"Submit Task"}
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "tasks" ("created_at", "title", "updated_at") VALUES (?, ?, ?)  [["created_at", Thu, 06 Jun 2013 20:06:15 UTC +00:00], ["title", "Buy presents"], ["updated_at", Thu, 06 Jun 2013 20:06:15 UTC +00:00]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://www.example.com/
+Completed 302 Found in 4ms (ActiveRecord: 0.7ms)
+Started GET "/" for 127.0.0.1 at 2013-06-06 15:06:15 -0500
+Processing by TasksController#index as HTML
+  [1m[35mTask Load (0.1ms)[0m  SELECT "tasks".* FROM "tasks" 
+Completed 200 OK in 3ms (Views: 1.8ms | ActiveRecord: 0.1ms)
+Started GET "/lists" for 127.0.0.1 at 2013-06-06 15:06:15 -0500
+  [1m[36m (0.7ms)[0m  [1mrollback transaction[0m
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+  [1m[36m (0.6ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (4.4ms)[0m  [1mINSERT INTO "lists" ("created_at", "lists", "title", "updated_at") VALUES (?, ?, ?, ?)[0m  [["created_at", Thu, 06 Jun 2013 20:07:46 UTC +00:00], ["lists", nil], ["title", "Grocery List"], ["updated_at", Thu, 06 Jun 2013 20:07:46 UTC +00:00]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "lists" [0m
+Started GET "/lists" for 127.0.0.1 at 2013-06-06 15:07:46 -0500
+  [1m[35m (1.7ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "tasks" ("created_at", "title", "updated_at") VALUES (?, ?, ?)[0m  [["created_at", Thu, 06 Jun 2013 20:07:46 UTC +00:00], ["title", "Walk Peggy"], ["updated_at", Thu, 06 Jun 2013 20:07:46 UTC +00:00]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "tasks" [0m
+Started GET "/tasks" for 127.0.0.1 at 2013-06-06 15:07:46 -0500
+  [1m[35m (0.7ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Started GET "/" for 127.0.0.1 at 2013-06-06 15:07:46 -0500
+Processing by TasksController#index as HTML
+  [1m[35mTask Load (0.2ms)[0m  SELECT "tasks".* FROM "tasks" 
+Completed 500 Internal Server Error in 96ms
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+Started GET "/" for 127.0.0.1 at 2013-06-06 15:07:46 -0500
+Processing by TasksController#index as HTML
+  [1m[36mTask Load (0.2ms)[0m  [1mSELECT "tasks".* FROM "tasks" [0m
+Completed 500 Internal Server Error in 18ms
+  [1m[35m (0.1ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+  [1m[36m (1.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (4.8ms)[0m  [1mINSERT INTO "lists" ("created_at", "lists", "title", "updated_at") VALUES (?, ?, ?, ?)[0m  [["created_at", Thu, 06 Jun 2013 20:09:18 UTC +00:00], ["lists", nil], ["title", "Grocery List"], ["updated_at", Thu, 06 Jun 2013 20:09:18 UTC +00:00]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "lists" [0m
+Started GET "/lists" for 127.0.0.1 at 2013-06-06 15:09:18 -0500
+Processing by ListsController#index as HTML
+  [1m[35mList Load (0.2ms)[0m  SELECT "lists".* FROM "lists" 
+Completed 500 Internal Server Error in 10ms
+  [1m[36m (1.2ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.6ms)[0m  INSERT INTO "tasks" ("created_at", "title", "updated_at") VALUES (?, ?, ?)  [["created_at", Thu, 06 Jun 2013 20:09:18 UTC +00:00], ["title", "Walk Peggy"], ["updated_at", Thu, 06 Jun 2013 20:09:18 UTC +00:00]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "tasks" 
+Started GET "/tasks" for 127.0.0.1 at 2013-06-06 15:09:18 -0500
+  [1m[36m (0.6ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+Started GET "/" for 127.0.0.1 at 2013-06-06 15:09:18 -0500
+Processing by TasksController#index as HTML
+  [1m[36mTask Load (0.2ms)[0m  [1mSELECT "tasks".* FROM "tasks" [0m
+Completed 500 Internal Server Error in 73ms
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Started GET "/" for 127.0.0.1 at 2013-06-06 15:09:18 -0500
+Processing by TasksController#index as HTML
+  [1m[35mTask Load (0.2ms)[0m  SELECT "tasks".* FROM "tasks" 
+Completed 500 Internal Server Error in 19ms
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+  [1m[36m (0.6ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (4.1ms)[0m  [1mINSERT INTO "lists" ("created_at", "lists", "title", "updated_at") VALUES (?, ?, ?, ?)[0m  [["created_at", Thu, 06 Jun 2013 20:13:24 UTC +00:00], ["lists", nil], ["title", "Grocery List"], ["updated_at", Thu, 06 Jun 2013 20:13:24 UTC +00:00]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "lists" [0m
+Started GET "/lists" for 127.0.0.1 at 2013-06-06 15:13:24 -0500
+Processing by ListsController#index as HTML
+  [1m[35mList Load (0.2ms)[0m  SELECT "lists".* FROM "lists" 
+  Rendered lists/index.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 14ms (Views: 11.6ms | ActiveRecord: 0.2ms)
+  [1m[36m (1.2ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "tasks" ("created_at", "title", "updated_at") VALUES (?, ?, ?)  [["created_at", Thu, 06 Jun 2013 20:13:24 UTC +00:00], ["title", "Walk Peggy"], ["updated_at", Thu, 06 Jun 2013 20:13:24 UTC +00:00]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "tasks" 
+Started GET "/tasks" for 127.0.0.1 at 2013-06-06 15:13:24 -0500
+  [1m[36m (0.7ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+Started GET "/" for 127.0.0.1 at 2013-06-06 15:13:24 -0500
+Processing by TasksController#index as HTML
+  [1m[36mTask Load (0.2ms)[0m  [1mSELECT "tasks".* FROM "tasks" [0m
+Completed 500 Internal Server Error in 74ms
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Started GET "/" for 127.0.0.1 at 2013-06-06 15:13:24 -0500
+Processing by TasksController#index as HTML
+  [1m[35mTask Load (0.2ms)[0m  SELECT "tasks".* FROM "tasks" 
+Completed 500 Internal Server Error in 19ms
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+  [1m[36m (1.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (4.2ms)[0m  [1mINSERT INTO "lists" ("created_at", "lists", "title", "updated_at") VALUES (?, ?, ?, ?)[0m  [["created_at", Thu, 06 Jun 2013 20:17:48 UTC +00:00], ["lists", nil], ["title", "Grocery List"], ["updated_at", Thu, 06 Jun 2013 20:17:48 UTC +00:00]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "lists" [0m
+Started GET "/lists" for 127.0.0.1 at 2013-06-06 15:17:48 -0500
+Processing by ListsController#index as HTML
+  [1m[35mList Load (0.2ms)[0m  SELECT "lists".* FROM "lists" 
+  Rendered lists/index.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 14ms (Views: 11.7ms | ActiveRecord: 0.2ms)
+  [1m[36m (1.3ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "tasks" ("created_at", "title", "updated_at") VALUES (?, ?, ?)  [["created_at", Thu, 06 Jun 2013 20:17:48 UTC +00:00], ["title", "Walk Peggy"], ["updated_at", Thu, 06 Jun 2013 20:17:48 UTC +00:00]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "tasks" 
+Started GET "/tasks" for 127.0.0.1 at 2013-06-06 15:17:48 -0500
+Processing by TasksController#index as HTML
+  [1m[36mTask Load (0.1ms)[0m  [1mSELECT "tasks".* FROM "tasks" [0m
+Completed 200 OK in 6ms (Views: 4.4ms | ActiveRecord: 0.1ms)
+  [1m[35m (0.6ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Started GET "/" for 127.0.0.1 at 2013-06-06 15:17:48 -0500
+Processing by TasksController#index as HTML
+  [1m[35mTask Load (0.2ms)[0m  SELECT "tasks".* FROM "tasks" 
+Completed 200 OK in 3ms (Views: 2.0ms | ActiveRecord: 0.2ms)
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+Started GET "/" for 127.0.0.1 at 2013-06-06 15:17:48 -0500
+Processing by TasksController#index as HTML
+  [1m[36mTask Load (0.2ms)[0m  [1mSELECT "tasks".* FROM "tasks" [0m
+Completed 200 OK in 3ms (Views: 2.0ms | ActiveRecord: 0.2ms)
+Started GET "/tasks/new" for 127.0.0.1 at 2013-06-06 15:17:48 -0500
+Processing by TasksController#new as HTML
+Completed 200 OK in 66ms (Views: 11.1ms | ActiveRecord: 0.0ms)
+Started POST "/tasks" for 127.0.0.1 at 2013-06-06 15:17:48 -0500
+Processing by TasksController#create as HTML
+  Parameters: {"utf8"=>"✓", "task"=>{"title"=>"Buy presents"}, "commit"=>"Submit Task"}
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "tasks" ("created_at", "title", "updated_at") VALUES (?, ?, ?)[0m  [["created_at", Thu, 06 Jun 2013 20:17:48 UTC +00:00], ["title", "Buy presents"], ["updated_at", Thu, 06 Jun 2013 20:17:48 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+Redirected to http://www.example.com/
+Completed 302 Found in 3ms (ActiveRecord: 0.5ms)
+Started GET "/" for 127.0.0.1 at 2013-06-06 15:17:48 -0500
+Processing by TasksController#index as HTML
+  [1m[36mTask Load (0.1ms)[0m  [1mSELECT "tasks".* FROM "tasks" [0m
+Completed 200 OK in 3ms (Views: 1.9ms | ActiveRecord: 0.1ms)
+Started GET "/lists" for 127.0.0.1 at 2013-06-06 15:17:48 -0500
+Processing by ListsController#index as HTML
+  [1m[35mList Load (0.1ms)[0m  SELECT "lists".* FROM "lists" 
+Completed 200 OK in 2ms (Views: 1.7ms | ActiveRecord: 0.1ms)
+  [1m[36m (0.7ms)[0m  [1mrollback transaction[0m
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+  [1m[36m (0.7ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (4.8ms)[0m  [1mINSERT INTO "lists" ("created_at", "lists", "title", "updated_at") VALUES (?, ?, ?, ?)[0m  [["created_at", Thu, 06 Jun 2013 20:33:14 UTC +00:00], ["lists", nil], ["title", "Grocery List"], ["updated_at", Thu, 06 Jun 2013 20:33:14 UTC +00:00]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "lists" [0m
+Started GET "/lists" for 127.0.0.1 at 2013-06-06 15:33:14 -0500
+Processing by ListsController#index as HTML
+  [1m[35mList Load (0.2ms)[0m  SELECT "lists".* FROM "lists" 
+  Rendered lists/index.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 13ms (Views: 11.6ms | ActiveRecord: 0.2ms)
+  [1m[36m (1.3ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "tasks" ("created_at", "title", "updated_at") VALUES (?, ?, ?)  [["created_at", Thu, 06 Jun 2013 20:33:14 UTC +00:00], ["title", "Walk Peggy"], ["updated_at", Thu, 06 Jun 2013 20:33:14 UTC +00:00]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "tasks" 
+Started GET "/tasks" for 127.0.0.1 at 2013-06-06 15:33:14 -0500
+Processing by TasksController#index as HTML
+  [1m[36mTask Load (0.1ms)[0m  [1mSELECT "tasks".* FROM "tasks" [0m
+Completed 200 OK in 6ms (Views: 4.2ms | ActiveRecord: 0.1ms)
+  [1m[35m (0.6ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Started GET "/" for 127.0.0.1 at 2013-06-06 15:33:14 -0500
+Processing by TasksController#index as HTML
+  [1m[35mTask Load (0.2ms)[0m  SELECT "tasks".* FROM "tasks" 
+Completed 200 OK in 3ms (Views: 1.9ms | ActiveRecord: 0.2ms)
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+Started GET "/" for 127.0.0.1 at 2013-06-06 15:33:14 -0500
+Processing by TasksController#index as HTML
+  [1m[36mTask Load (0.2ms)[0m  [1mSELECT "tasks".* FROM "tasks" [0m
+Completed 200 OK in 3ms (Views: 2.0ms | ActiveRecord: 0.2ms)
+Started GET "/tasks/new" for 127.0.0.1 at 2013-06-06 15:33:14 -0500
+Processing by TasksController#new as HTML
+Completed 200 OK in 65ms (Views: 12.0ms | ActiveRecord: 0.0ms)
+Started POST "/tasks" for 127.0.0.1 at 2013-06-06 15:33:14 -0500
+Processing by TasksController#create as HTML
+  Parameters: {"utf8"=>"✓", "task"=>{"title"=>"Buy presents"}, "commit"=>"Submit Task"}
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "tasks" ("created_at", "title", "updated_at") VALUES (?, ?, ?)[0m  [["created_at", Thu, 06 Jun 2013 20:33:14 UTC +00:00], ["title", "Buy presents"], ["updated_at", Thu, 06 Jun 2013 20:33:14 UTC +00:00]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+Redirected to http://www.example.com/
+Completed 302 Found in 3ms (ActiveRecord: 0.6ms)
+Started GET "/" for 127.0.0.1 at 2013-06-06 15:33:14 -0500
+Processing by TasksController#index as HTML
+  [1m[36mTask Load (0.1ms)[0m  [1mSELECT "tasks".* FROM "tasks" [0m
+Completed 200 OK in 3ms (Views: 1.9ms | ActiveRecord: 0.1ms)
+Started GET "/lists" for 127.0.0.1 at 2013-06-06 15:33:14 -0500
+Processing by ListsController#index as HTML
+  [1m[35mList Load (0.1ms)[0m  SELECT "lists".* FROM "lists" 
+Completed 200 OK in 2ms (Views: 1.7ms | ActiveRecord: 0.1ms)
+  [1m[36m (0.4ms)[0m  [1mrollback transaction[0m
+Connecting to database specified by database.yml
+  [1m[36m (1.3ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (87.7ms)[0m  [1mINSERT INTO "lists" ("created_at", "lists", "title", "updated_at") VALUES (?, ?, ?, ?)[0m  [["created_at", Mon, 10 Jun 2013 11:32:47 UTC +00:00], ["lists", nil], ["title", "Grocery List"], ["updated_at", Mon, 10 Jun 2013 11:32:47 UTC +00:00]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "lists" [0m
+Started GET "/lists" for 127.0.0.1 at 2013-06-10 06:32:47 -0500
+Processing by ListsController#index as HTML
+  [1m[35mList Load (0.2ms)[0m  SELECT "lists".* FROM "lists" 
+  Rendered lists/index.html.erb within layouts/application (11.6ms)
+Completed 500 Internal Server Error in 76ms
+  [1m[36m (0.7ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.6ms)[0m  INSERT INTO "tasks" ("created_at", "title", "updated_at") VALUES (?, ?, ?)  [["created_at", Mon, 10 Jun 2013 11:32:47 UTC +00:00], ["title", "Walk Peggy"], ["updated_at", Mon, 10 Jun 2013 11:32:47 UTC +00:00]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "tasks" 
+Started GET "/tasks" for 127.0.0.1 at 2013-06-10 06:32:47 -0500
+Processing by TasksController#index as HTML
+  [1m[36mTask Load (0.1ms)[0m  [1mSELECT "tasks".* FROM "tasks" [0m
+Completed 500 Internal Server Error in 3ms
+  [1m[35m (0.8ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+Started GET "/" for 127.0.0.1 at 2013-06-10 06:32:47 -0500
+Processing by TasksController#index as HTML
+  [1m[35mTask Load (0.2ms)[0m  SELECT "tasks".* FROM "tasks" 
+Completed 500 Internal Server Error in 2ms
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+Started GET "/" for 127.0.0.1 at 2013-06-10 06:32:47 -0500
+Processing by TasksController#index as HTML
+  [1m[36mTask Load (0.2ms)[0m  [1mSELECT "tasks".* FROM "tasks" [0m
+Completed 500 Internal Server Error in 2ms
+  [1m[35m (0.1ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+  [1m[36m (0.6ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (4.4ms)[0m  [1mINSERT INTO "lists" ("created_at", "lists", "title", "updated_at") VALUES (?, ?, ?, ?)[0m  [["created_at", Mon, 10 Jun 2013 11:38:29 UTC +00:00], ["lists", nil], ["title", "Grocery List"], ["updated_at", Mon, 10 Jun 2013 11:38:29 UTC +00:00]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "lists" [0m
+Started GET "/lists" for 127.0.0.1 at 2013-06-10 06:38:29 -0500
+Processing by ListsController#index as HTML
+  [1m[35mList Load (0.2ms)[0m  SELECT "lists".* FROM "lists" 
+  Rendered lists/index.html.erb within layouts/application (6.5ms)
+Completed 500 Internal Server Error in 15ms
+  [1m[36m (1.2ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.6ms)[0m  INSERT INTO "tasks" ("created_at", "title", "updated_at") VALUES (?, ?, ?)  [["created_at", Mon, 10 Jun 2013 11:38:29 UTC +00:00], ["title", "Walk Peggy"], ["updated_at", Mon, 10 Jun 2013 11:38:29 UTC +00:00]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "tasks" 
+Started GET "/tasks" for 127.0.0.1 at 2013-06-10 06:38:29 -0500
+Processing by TasksController#index as HTML
+  [1m[36mTask Load (0.1ms)[0m  [1mSELECT "tasks".* FROM "tasks" [0m
+Completed 500 Internal Server Error in 3ms
+  [1m[35m (0.7ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Started GET "/" for 127.0.0.1 at 2013-06-10 06:38:29 -0500
+Processing by TasksController#index as HTML
+  [1m[35mTask Load (0.2ms)[0m  SELECT "tasks".* FROM "tasks" 
+Completed 500 Internal Server Error in 2ms
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+Started GET "/" for 127.0.0.1 at 2013-06-10 06:38:30 -0500
+Processing by TasksController#index as HTML
+  [1m[36mTask Load (0.2ms)[0m  [1mSELECT "tasks".* FROM "tasks" [0m
+Completed 500 Internal Server Error in 2ms
+  [1m[35m (0.1ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+  [1m[36m (0.9ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (7.5ms)[0m  [1mINSERT INTO "lists" ("created_at", "lists", "title", "updated_at") VALUES (?, ?, ?, ?)[0m  [["created_at", Mon, 10 Jun 2013 12:11:40 UTC +00:00], ["lists", nil], ["title", "Grocery List"], ["updated_at", Mon, 10 Jun 2013 12:11:40 UTC +00:00]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "lists" [0m
+Started GET "/lists" for 127.0.0.1 at 2013-06-10 07:11:40 -0500
+Processing by ListsController#index as HTML
+  [1m[35mList Load (0.2ms)[0m  SELECT "lists".* FROM "lists" 
+  Rendered lists/index.html.erb within layouts/application (8.2ms)
+Completed 500 Internal Server Error in 20ms
+  [1m[36m (0.8ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.6ms)[0m  INSERT INTO "tasks" ("created_at", "title", "updated_at") VALUES (?, ?, ?)  [["created_at", Mon, 10 Jun 2013 12:11:40 UTC +00:00], ["title", "Walk Peggy"], ["updated_at", Mon, 10 Jun 2013 12:11:40 UTC +00:00]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "tasks" 
+Started GET "/tasks" for 127.0.0.1 at 2013-06-10 07:11:40 -0500
+Processing by TasksController#index as HTML
+  [1m[36mTask Load (0.1ms)[0m  [1mSELECT "tasks".* FROM "tasks" [0m
+Completed 500 Internal Server Error in 3ms
+  [1m[35m (0.7ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Started GET "/" for 127.0.0.1 at 2013-06-10 07:11:40 -0500
+Processing by ListsController#index as HTML
+  [1m[35mList Load (0.2ms)[0m  SELECT "lists".* FROM "lists" 
+Completed 500 Internal Server Error in 3ms
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+Started GET "/" for 127.0.0.1 at 2013-06-10 07:11:40 -0500
+Processing by ListsController#index as HTML
+  [1m[36mList Load (0.2ms)[0m  [1mSELECT "lists".* FROM "lists" [0m
+Completed 500 Internal Server Error in 2ms
+  [1m[35m (0.1ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+  [1m[36m (1.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (22.9ms)[0m  [1mINSERT INTO "lists" ("created_at", "lists", "title", "updated_at") VALUES (?, ?, ?, ?)[0m  [["created_at", Mon, 10 Jun 2013 14:24:00 UTC +00:00], ["lists", nil], ["title", "Grocery List"], ["updated_at", Mon, 10 Jun 2013 14:24:00 UTC +00:00]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "lists" [0m
+Started GET "/lists" for 127.0.0.1 at 2013-06-10 09:24:00 -0500
+Processing by ListsController#index as HTML
+  [1m[35mList Load (0.2ms)[0m  SELECT "lists".* FROM "lists" 
+  Rendered lists/index.html.erb within layouts/application (6.4ms)
+Completed 500 Internal Server Error in 15ms
+  [1m[36m (0.8ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "tasks" ("created_at", "title", "updated_at") VALUES (?, ?, ?)  [["created_at", Mon, 10 Jun 2013 14:24:00 UTC +00:00], ["title", "Walk Peggy"], ["updated_at", Mon, 10 Jun 2013 14:24:00 UTC +00:00]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "tasks" 
+Started GET "/tasks" for 127.0.0.1 at 2013-06-10 09:24:00 -0500
+Processing by TasksController#index as HTML
+  [1m[36mTask Load (0.1ms)[0m  [1mSELECT "tasks".* FROM "tasks" [0m
+Completed 200 OK in 7ms (Views: 5.3ms | ActiveRecord: 0.1ms)
+  [1m[35m (0.8ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Started GET "/" for 127.0.0.1 at 2013-06-10 09:24:01 -0500
+Processing by ListsController#index as HTML
+  [1m[35mList Load (0.2ms)[0m  SELECT "lists".* FROM "lists" 
+Completed 500 Internal Server Error in 3ms
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+Started GET "/" for 127.0.0.1 at 2013-06-10 09:24:01 -0500
+Processing by ListsController#index as HTML
+  [1m[36mList Load (0.2ms)[0m  [1mSELECT "lists".* FROM "lists" [0m
+Completed 500 Internal Server Error in 2ms
+  [1m[35m (0.1ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+  [1m[36m (0.7ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (4.5ms)[0m  [1mINSERT INTO "lists" ("created_at", "lists", "title", "updated_at") VALUES (?, ?, ?, ?)[0m  [["created_at", Mon, 10 Jun 2013 14:24:25 UTC +00:00], ["lists", nil], ["title", "Grocery List"], ["updated_at", Mon, 10 Jun 2013 14:24:25 UTC +00:00]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "lists" [0m
+Started GET "/lists" for 127.0.0.1 at 2013-06-10 09:24:25 -0500
+Processing by ListsController#index as HTML
+  [1m[35mList Load (0.2ms)[0m  SELECT "lists".* FROM "lists" 
+  Rendered lists/index.html.erb within layouts/application (6.1ms)
+Completed 500 Internal Server Error in 15ms
+  [1m[36m (1.2ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "tasks" ("created_at", "title", "updated_at") VALUES (?, ?, ?)  [["created_at", Mon, 10 Jun 2013 14:24:25 UTC +00:00], ["title", "Walk Peggy"], ["updated_at", Mon, 10 Jun 2013 14:24:25 UTC +00:00]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "tasks" 
+Started GET "/tasks" for 127.0.0.1 at 2013-06-10 09:24:25 -0500
+Processing by TasksController#index as HTML
+  [1m[36mTask Load (0.1ms)[0m  [1mSELECT "tasks".* FROM "tasks" [0m
+Completed 200 OK in 7ms (Views: 5.4ms | ActiveRecord: 0.1ms)
+  [1m[35m (0.8ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Started GET "/" for 127.0.0.1 at 2013-06-10 09:24:25 -0500
+Processing by ListsController#index as HTML
+  [1m[35mList Load (0.2ms)[0m  SELECT "lists".* FROM "lists" 
+Completed 500 Internal Server Error in 3ms
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+Started GET "/" for 127.0.0.1 at 2013-06-10 09:24:25 -0500
+Processing by ListsController#index as HTML
+  [1m[36mList Load (0.2ms)[0m  [1mSELECT "lists".* FROM "lists" [0m
+Completed 500 Internal Server Error in 2ms
+  [1m[35m (0.1ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+  [1m[36m (0.6ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (4.5ms)[0m  [1mINSERT INTO "lists" ("created_at", "lists", "title", "updated_at") VALUES (?, ?, ?, ?)[0m  [["created_at", Mon, 10 Jun 2013 14:33:28 UTC +00:00], ["lists", nil], ["title", "Grocery List"], ["updated_at", Mon, 10 Jun 2013 14:33:28 UTC +00:00]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "lists" [0m
+Started GET "/lists" for 127.0.0.1 at 2013-06-10 09:33:28 -0500
+Processing by ListsController#index as HTML
+  [1m[35mList Load (0.2ms)[0m  SELECT "lists".* FROM "lists" 
+  Rendered lists/index.html.erb within layouts/application (6.7ms)
+Completed 500 Internal Server Error in 17ms
+  [1m[36m (1.3ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.6ms)[0m  INSERT INTO "tasks" ("created_at", "title", "updated_at") VALUES (?, ?, ?)  [["created_at", Mon, 10 Jun 2013 14:33:28 UTC +00:00], ["title", "Walk Peggy"], ["updated_at", Mon, 10 Jun 2013 14:33:28 UTC +00:00]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "tasks" 
+Started GET "/tasks" for 127.0.0.1 at 2013-06-10 09:33:28 -0500
+Processing by TasksController#index as HTML
+  [1m[36mTask Load (0.1ms)[0m  [1mSELECT "tasks".* FROM "tasks" [0m
+Completed 200 OK in 7ms (Views: 5.2ms | ActiveRecord: 0.1ms)
+  [1m[35m (0.7ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Started GET "/" for 127.0.0.1 at 2013-06-10 09:33:28 -0500
+Processing by ListsController#index as HTML
+  [1m[35mList Load (0.2ms)[0m  SELECT "lists".* FROM "lists" 
+Completed 500 Internal Server Error in 3ms
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+Started GET "/" for 127.0.0.1 at 2013-06-10 09:33:29 -0500
+Processing by ListsController#index as HTML
+  [1m[36mList Load (0.2ms)[0m  [1mSELECT "lists".* FROM "lists" [0m
+Completed 500 Internal Server Error in 2ms
+  [1m[35m (0.1ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+  [1m[36m (0.7ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (4.5ms)[0m  [1mINSERT INTO "lists" ("created_at", "lists", "title", "updated_at") VALUES (?, ?, ?, ?)[0m  [["created_at", Mon, 10 Jun 2013 14:36:07 UTC +00:00], ["lists", nil], ["title", "Grocery List"], ["updated_at", Mon, 10 Jun 2013 14:36:07 UTC +00:00]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "lists" [0m
+Started GET "/lists" for 127.0.0.1 at 2013-06-10 09:36:07 -0500
+Processing by ListsController#index as HTML
+  [1m[35mList Load (0.2ms)[0m  SELECT "lists".* FROM "lists" 
+  Rendered lists/index.html.erb within layouts/application (6.6ms)
+Completed 500 Internal Server Error in 17ms
+  [1m[36m (1.2ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.6ms)[0m  INSERT INTO "tasks" ("created_at", "title", "updated_at") VALUES (?, ?, ?)  [["created_at", Mon, 10 Jun 2013 14:36:07 UTC +00:00], ["title", "Walk Peggy"], ["updated_at", Mon, 10 Jun 2013 14:36:07 UTC +00:00]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "tasks" 
+Started GET "/tasks" for 127.0.0.1 at 2013-06-10 09:36:07 -0500
+Processing by TasksController#index as HTML
+  [1m[36mTask Load (0.1ms)[0m  [1mSELECT "tasks".* FROM "tasks" [0m
+Completed 500 Internal Server Error in 3ms
+  [1m[35m (0.5ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+Started GET "/" for 127.0.0.1 at 2013-06-10 09:36:07 -0500
+Processing by ListsController#index as HTML
+  [1m[35mList Load (0.2ms)[0m  SELECT "lists".* FROM "lists" 
+Completed 500 Internal Server Error in 3ms
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+Started GET "/" for 127.0.0.1 at 2013-06-10 09:36:07 -0500
+Processing by ListsController#index as HTML
+  [1m[36mList Load (0.2ms)[0m  [1mSELECT "lists".* FROM "lists" [0m
+Completed 500 Internal Server Error in 2ms
+  [1m[35m (0.1ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+  [1m[36m (0.9ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (33.0ms)[0m  [1mINSERT INTO "lists" ("created_at", "lists", "title", "updated_at") VALUES (?, ?, ?, ?)[0m  [["created_at", Mon, 10 Jun 2013 17:21:36 UTC +00:00], ["lists", nil], ["title", "Grocery List"], ["updated_at", Mon, 10 Jun 2013 17:21:36 UTC +00:00]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "lists" [0m
+Started GET "/lists" for 127.0.0.1 at 2013-06-10 12:21:36 -0500
+Processing by ListsController#index as HTML
+  [1m[35mList Load (0.2ms)[0m  SELECT "lists".* FROM "lists" 
+  Rendered lists/index.html.erb within layouts/application (6.6ms)
+Completed 500 Internal Server Error in 17ms
+  [1m[36m (0.7ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.2ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "tasks" ("created_at", "title", "updated_at") VALUES (?, ?, ?)  [["created_at", Mon, 10 Jun 2013 17:21:37 UTC +00:00], ["title", "Walk Peggy"], ["updated_at", Mon, 10 Jun 2013 17:21:37 UTC +00:00]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "tasks" 
+Started GET "/tasks" for 127.0.0.1 at 2013-06-10 12:21:37 -0500
+Processing by TasksController#index as HTML
+  [1m[36mTask Load (0.1ms)[0m  [1mSELECT "tasks".* FROM "tasks" [0m
+Completed 500 Internal Server Error in 3ms
+  [1m[35m (0.7ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Started GET "/" for 127.0.0.1 at 2013-06-10 12:21:37 -0500
+Processing by ListsController#index as HTML
+  [1m[35mList Load (0.2ms)[0m  SELECT "lists".* FROM "lists" 
+Completed 500 Internal Server Error in 3ms
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+Started GET "/" for 127.0.0.1 at 2013-06-10 12:21:37 -0500
+Processing by ListsController#index as HTML
+  [1m[36mList Load (0.2ms)[0m  [1mSELECT "lists".* FROM "lists" [0m
+Completed 500 Internal Server Error in 2ms
+  [1m[35m (0.1ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+  [1m[36m (0.6ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (4.4ms)[0m  [1mINSERT INTO "lists" ("created_at", "lists", "title", "updated_at") VALUES (?, ?, ?, ?)[0m  [["created_at", Mon, 10 Jun 2013 17:25:39 UTC +00:00], ["lists", nil], ["title", "Grocery List"], ["updated_at", Mon, 10 Jun 2013 17:25:39 UTC +00:00]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "lists" [0m
+Started GET "/lists" for 127.0.0.1 at 2013-06-10 12:25:39 -0500
+Processing by ListsController#index as HTML
+  [1m[35mList Load (0.2ms)[0m  SELECT "lists".* FROM "lists" 
+  Rendered lists/index.html.erb within layouts/application (6.6ms)
+Completed 500 Internal Server Error in 15ms
+  [1m[36m (1.3ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "tasks" ("created_at", "title", "updated_at") VALUES (?, ?, ?)  [["created_at", Mon, 10 Jun 2013 17:25:39 UTC +00:00], ["title", "Walk Peggy"], ["updated_at", Mon, 10 Jun 2013 17:25:39 UTC +00:00]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "tasks" 
+Started GET "/tasks" for 127.0.0.1 at 2013-06-10 12:25:39 -0500
+Processing by TasksController#index as HTML
+  [1m[36mTask Load (0.1ms)[0m  [1mSELECT "tasks".* FROM "tasks" [0m
+Completed 500 Internal Server Error in 3ms
+  [1m[35m (0.7ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Started GET "/" for 127.0.0.1 at 2013-06-10 12:25:39 -0500
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Started GET "/" for 127.0.0.1 at 2013-06-10 12:25:39 -0500
+  [1m[35m (0.1ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+  [1m[36m (0.7ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (4.4ms)[0m  [1mINSERT INTO "lists" ("created_at", "lists", "title", "updated_at") VALUES (?, ?, ?, ?)[0m  [["created_at", Mon, 10 Jun 2013 17:30:59 UTC +00:00], ["lists", nil], ["title", "Grocery List"], ["updated_at", Mon, 10 Jun 2013 17:30:59 UTC +00:00]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "lists" [0m
+Started GET "/lists" for 127.0.0.1 at 2013-06-10 12:30:59 -0500
+Processing by ListsController#index as HTML
+  [1m[35mList Load (0.2ms)[0m  SELECT "lists".* FROM "lists" 
+  Rendered lists/index.html.erb within layouts/application (4.6ms)
+Completed 500 Internal Server Error in 14ms
+  [1m[36m (0.6ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "tasks" ("created_at", "title", "updated_at") VALUES (?, ?, ?)  [["created_at", Mon, 10 Jun 2013 17:30:59 UTC +00:00], ["title", "Walk Peggy"], ["updated_at", Mon, 10 Jun 2013 17:30:59 UTC +00:00]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "tasks" 
+Started GET "/tasks" for 127.0.0.1 at 2013-06-10 12:30:59 -0500
+Processing by TasksController#index as HTML
+  [1m[36mTask Load (0.1ms)[0m  [1mSELECT "tasks".* FROM "tasks" [0m
+Completed 500 Internal Server Error in 3ms
+  [1m[35m (0.7ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Started GET "/" for 127.0.0.1 at 2013-06-10 12:30:59 -0500
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Started GET "/" for 127.0.0.1 at 2013-06-10 12:30:59 -0500
+  [1m[35m (0.1ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+  [1m[36m (0.6ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (4.9ms)[0m  [1mINSERT INTO "lists" ("created_at", "lists", "title", "updated_at") VALUES (?, ?, ?, ?)[0m  [["created_at", Mon, 10 Jun 2013 17:35:24 UTC +00:00], ["lists", nil], ["title", "Grocery List"], ["updated_at", Mon, 10 Jun 2013 17:35:24 UTC +00:00]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "lists" [0m
+Started GET "/lists" for 127.0.0.1 at 2013-06-10 12:35:24 -0500
+Processing by ListsController#index as HTML
+  [1m[35mList Load (0.2ms)[0m  SELECT "lists".* FROM "lists" 
+  Rendered lists/index.html.erb within layouts/application (6.1ms)
+Completed 500 Internal Server Error in 15ms
+  [1m[36m (1.2ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "tasks" ("created_at", "title", "updated_at") VALUES (?, ?, ?)  [["created_at", Mon, 10 Jun 2013 17:35:24 UTC +00:00], ["title", "Walk Peggy"], ["updated_at", Mon, 10 Jun 2013 17:35:24 UTC +00:00]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "tasks" 
+Started GET "/tasks" for 127.0.0.1 at 2013-06-10 12:35:24 -0500
+Processing by TasksController#index as HTML
+  [1m[36mTask Load (0.1ms)[0m  [1mSELECT "tasks".* FROM "tasks" [0m
+Completed 500 Internal Server Error in 3ms
+  [1m[35m (0.7ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+Started GET "/" for 127.0.0.1 at 2013-06-10 12:35:24 -0500
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Started GET "/" for 127.0.0.1 at 2013-06-10 12:35:24 -0500
+  [1m[35m (0.1ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+  [1m[36m (0.8ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (4.4ms)[0m  [1mINSERT INTO "lists" ("created_at", "lists", "title", "updated_at") VALUES (?, ?, ?, ?)[0m  [["created_at", Mon, 10 Jun 2013 17:36:39 UTC +00:00], ["lists", nil], ["title", "Grocery List"], ["updated_at", Mon, 10 Jun 2013 17:36:39 UTC +00:00]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "lists" [0m
+Started GET "/lists" for 127.0.0.1 at 2013-06-10 12:36:39 -0500
+Processing by ListsController#index as HTML
+  [1m[35mList Load (0.1ms)[0m  SELECT "lists".* FROM "lists" 
+  Rendered lists/index.html.erb within layouts/application (6.7ms)
+Completed 500 Internal Server Error in 16ms
+  [1m[36m (1.3ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "tasks" ("created_at", "title", "updated_at") VALUES (?, ?, ?)  [["created_at", Mon, 10 Jun 2013 17:36:39 UTC +00:00], ["title", "Walk Peggy"], ["updated_at", Mon, 10 Jun 2013 17:36:39 UTC +00:00]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "tasks" 
+Started GET "/tasks" for 127.0.0.1 at 2013-06-10 12:36:39 -0500
+Processing by TasksController#index as HTML
+  [1m[36mTask Load (0.1ms)[0m  [1mSELECT "tasks".* FROM "tasks" [0m
+Completed 500 Internal Server Error in 3ms
+  [1m[35m (0.7ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Started GET "/" for 127.0.0.1 at 2013-06-10 12:36:39 -0500
+Processing by ListsController#index as HTML
+  [1m[35mList Load (0.2ms)[0m  SELECT "lists".* FROM "lists" 
+Completed 500 Internal Server Error in 3ms
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+Started GET "/" for 127.0.0.1 at 2013-06-10 12:36:39 -0500
+Processing by ListsController#index as HTML
+  [1m[36mList Load (0.2ms)[0m  [1mSELECT "lists".* FROM "lists" [0m
+Completed 500 Internal Server Error in 3ms
+  [1m[35m (0.1ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+  [1m[36m (0.7ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (4.5ms)[0m  [1mINSERT INTO "lists" ("created_at", "lists", "title", "updated_at") VALUES (?, ?, ?, ?)[0m  [["created_at", Mon, 10 Jun 2013 17:39:43 UTC +00:00], ["lists", nil], ["title", "Grocery List"], ["updated_at", Mon, 10 Jun 2013 17:39:43 UTC +00:00]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "lists" [0m
+Started GET "/lists" for 127.0.0.1 at 2013-06-10 12:39:43 -0500
+Processing by ListsController#index as HTML
+  [1m[35mList Load (0.2ms)[0m  SELECT "lists".* FROM "lists" 
+  Rendered lists/index.html.erb within layouts/application (6.6ms)
+Completed 500 Internal Server Error in 15ms
+  [1m[36m (1.2ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "tasks" ("created_at", "title", "updated_at") VALUES (?, ?, ?)  [["created_at", Mon, 10 Jun 2013 17:39:43 UTC +00:00], ["title", "Walk Peggy"], ["updated_at", Mon, 10 Jun 2013 17:39:43 UTC +00:00]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "tasks" 
+Started GET "/tasks" for 127.0.0.1 at 2013-06-10 12:39:43 -0500
+Processing by TasksController#index as HTML
+  [1m[36mTask Load (0.1ms)[0m  [1mSELECT "tasks".* FROM "tasks" [0m
+Completed 500 Internal Server Error in 3ms
+  [1m[35m (0.7ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+Started GET "/" for 127.0.0.1 at 2013-06-10 12:39:44 -0500
+Processing by ListsController#index as HTML
+  [1m[35mList Load (0.2ms)[0m  SELECT "lists".* FROM "lists" 
+Completed 500 Internal Server Error in 3ms
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+Started GET "/" for 127.0.0.1 at 2013-06-10 12:39:44 -0500
+Processing by ListsController#index as HTML
+  [1m[36mList Load (0.2ms)[0m  [1mSELECT "lists".* FROM "lists" [0m
+Completed 500 Internal Server Error in 2ms
+  [1m[35m (0.1ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+  [1m[36m (0.7ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (4.4ms)[0m  [1mINSERT INTO "lists" ("created_at", "lists", "title", "updated_at") VALUES (?, ?, ?, ?)[0m  [["created_at", Mon, 10 Jun 2013 17:45:20 UTC +00:00], ["lists", nil], ["title", "Grocery List"], ["updated_at", Mon, 10 Jun 2013 17:45:20 UTC +00:00]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "lists" [0m
+Started GET "/lists" for 127.0.0.1 at 2013-06-10 12:45:20 -0500
+Processing by ListsController#index as HTML
+  [1m[35mList Load (0.2ms)[0m  SELECT "lists".* FROM "lists" 
+  Rendered lists/index.html.erb within layouts/application (4.9ms)
+Completed 500 Internal Server Error in 15ms
+  [1m[36m (1.3ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "tasks" ("created_at", "title", "updated_at") VALUES (?, ?, ?)  [["created_at", Mon, 10 Jun 2013 17:45:20 UTC +00:00], ["title", "Walk Peggy"], ["updated_at", Mon, 10 Jun 2013 17:45:20 UTC +00:00]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "tasks" 
+Started GET "/tasks" for 127.0.0.1 at 2013-06-10 12:45:20 -0500
+Processing by TasksController#index as HTML
+  [1m[36mTask Load (0.1ms)[0m  [1mSELECT "tasks".* FROM "tasks" [0m
+Completed 500 Internal Server Error in 3ms
+  [1m[35m (0.6ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Started GET "/" for 127.0.0.1 at 2013-06-10 12:45:20 -0500
+Processing by ListsController#index as HTML
+  [1m[35mList Load (0.2ms)[0m  SELECT "lists".* FROM "lists" 
+Completed 500 Internal Server Error in 3ms
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+Started GET "/" for 127.0.0.1 at 2013-06-10 12:45:20 -0500
+Processing by ListsController#index as HTML
+  [1m[36mList Load (0.2ms)[0m  [1mSELECT "lists".* FROM "lists" [0m
+Completed 500 Internal Server Error in 3ms
+  [1m[35m (0.1ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+  [1m[36m (0.7ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (4.4ms)[0m  [1mINSERT INTO "lists" ("created_at", "lists", "title", "updated_at") VALUES (?, ?, ?, ?)[0m  [["created_at", Mon, 10 Jun 2013 17:53:24 UTC +00:00], ["lists", nil], ["title", "Grocery List"], ["updated_at", Mon, 10 Jun 2013 17:53:24 UTC +00:00]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "lists" [0m
+Started GET "/lists" for 127.0.0.1 at 2013-06-10 12:53:24 -0500
+Processing by ListsController#index as HTML
+  [1m[35mList Load (0.2ms)[0m  SELECT "lists".* FROM "lists" 
+  Rendered lists/index.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 16ms (Views: 13.2ms | ActiveRecord: 0.2ms)
+  [1m[36m (1.5ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "tasks" ("created_at", "title", "updated_at") VALUES (?, ?, ?)  [["created_at", Mon, 10 Jun 2013 17:53:24 UTC +00:00], ["title", "Walk Peggy"], ["updated_at", Mon, 10 Jun 2013 17:53:24 UTC +00:00]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "tasks" 
+Started GET "/tasks" for 127.0.0.1 at 2013-06-10 12:53:24 -0500
+Processing by TasksController#index as HTML
+  [1m[36mTask Load (0.2ms)[0m  [1mSELECT "tasks".* FROM "tasks" [0m
+Completed 500 Internal Server Error in 5ms
+  [1m[35m (0.8ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Started GET "/" for 127.0.0.1 at 2013-06-10 12:53:24 -0500
+Processing by ListsController#index as HTML
+  [1m[35mList Load (0.2ms)[0m  SELECT "lists".* FROM "lists" 
+Completed 200 OK in 4ms (Views: 2.8ms | ActiveRecord: 0.2ms)
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+Started GET "/" for 127.0.0.1 at 2013-06-10 12:53:24 -0500
+Processing by ListsController#index as HTML
+  [1m[36mList Load (0.2ms)[0m  [1mSELECT "lists".* FROM "lists" [0m
+Completed 200 OK in 3ms (Views: 2.0ms | ActiveRecord: 0.2ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+  [1m[36m (0.6ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (4.8ms)[0m  [1mINSERT INTO "lists" ("created_at", "lists", "title", "updated_at") VALUES (?, ?, ?, ?)[0m  [["created_at", Mon, 10 Jun 2013 17:57:07 UTC +00:00], ["lists", nil], ["title", "Grocery List"], ["updated_at", Mon, 10 Jun 2013 17:57:07 UTC +00:00]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "lists" [0m
+Started GET "/lists" for 127.0.0.1 at 2013-06-10 12:57:07 -0500
+Processing by ListsController#index as HTML
+  [1m[35mList Load (0.2ms)[0m  SELECT "lists".* FROM "lists" 
+  Rendered lists/index.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 13ms (Views: 11.5ms | ActiveRecord: 0.2ms)
+  [1m[36m (1.3ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.6ms)[0m  INSERT INTO "tasks" ("created_at", "title", "updated_at") VALUES (?, ?, ?)  [["created_at", Mon, 10 Jun 2013 17:57:07 UTC +00:00], ["title", "Walk Peggy"], ["updated_at", Mon, 10 Jun 2013 17:57:07 UTC +00:00]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "tasks" 
+Started GET "/tasks" for 127.0.0.1 at 2013-06-10 12:57:07 -0500
+Processing by TasksController#index as HTML
+  [1m[36mTask Load (0.1ms)[0m  [1mSELECT "tasks".* FROM "tasks" [0m
+Completed 500 Internal Server Error in 5ms
+  [1m[35m (0.6ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Started GET "/" for 127.0.0.1 at 2013-06-10 12:57:08 -0500
+Processing by ListsController#index as HTML
+  [1m[35mList Load (0.2ms)[0m  SELECT "lists".* FROM "lists" 
+Completed 200 OK in 4ms (Views: 3.2ms | ActiveRecord: 0.2ms)
+Started GET "/lists/new" for 127.0.0.1 at 2013-06-10 12:57:08 -0500
+Processing by ListsController#new as HTML
+Completed 200 OK in 60ms (Views: 58.5ms | ActiveRecord: 0.0ms)
+Started POST "/lists" for 127.0.0.1 at 2013-06-10 12:57:08 -0500
+Processing by ListsController#create as HTML
+  Parameters: {"utf8"=>"✓", "list"=>{"title"=>"Grocery List"}, "commit"=>"Submit List"}
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "lists" ("created_at", "lists", "title", "updated_at") VALUES (?, ?, ?, ?)  [["created_at", Mon, 10 Jun 2013 17:57:08 UTC +00:00], ["lists", nil], ["title", "Grocery List"], ["updated_at", Mon, 10 Jun 2013 17:57:08 UTC +00:00]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://www.example.com/
+Completed 302 Found in 3ms (ActiveRecord: 0.6ms)
+Started GET "/" for 127.0.0.1 at 2013-06-10 12:57:08 -0500
+Processing by ListsController#index as HTML
+  [1m[35mList Load (0.1ms)[0m  SELECT "lists".* FROM "lists" 
+Completed 200 OK in 3ms (Views: 1.9ms | ActiveRecord: 0.1ms)
+Started GET "/lists" for 127.0.0.1 at 2013-06-10 12:57:08 -0500
+Processing by ListsController#index as HTML
+  [1m[36mList Load (0.1ms)[0m  [1mSELECT "lists".* FROM "lists" [0m
+Completed 200 OK in 2ms (Views: 1.6ms | ActiveRecord: 0.1ms)
+  [1m[35m (0.7ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Started GET "/" for 127.0.0.1 at 2013-06-10 12:57:08 -0500
+Processing by ListsController#index as HTML
+  [1m[35mList Load (0.2ms)[0m  SELECT "lists".* FROM "lists" 
+Completed 200 OK in 3ms (Views: 1.9ms | ActiveRecord: 0.2ms)
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+  [1m[36m (0.9ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (4.3ms)[0m  [1mINSERT INTO "lists" ("created_at", "lists", "title", "updated_at") VALUES (?, ?, ?, ?)[0m  [["created_at", Mon, 10 Jun 2013 21:53:54 UTC +00:00], ["lists", nil], ["title", "Grocery List"], ["updated_at", Mon, 10 Jun 2013 21:53:54 UTC +00:00]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "lists" [0m
+Started GET "/lists" for 127.0.0.1 at 2013-06-10 16:53:54 -0500
+Processing by ListsController#index as HTML
+  [1m[35mList Load (0.2ms)[0m  SELECT "lists".* FROM "lists" 
+  Rendered lists/index.html.erb within layouts/application (4.3ms)
+Completed 200 OK in 16ms (Views: 13.9ms | ActiveRecord: 0.2ms)
+  [1m[36m (0.8ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "tasks" ("created_at", "title", "updated_at") VALUES (?, ?, ?)  [["created_at", Mon, 10 Jun 2013 21:53:54 UTC +00:00], ["title", "Walk Peggy"], ["updated_at", Mon, 10 Jun 2013 21:53:54 UTC +00:00]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "tasks" 
+Started GET "/tasks" for 127.0.0.1 at 2013-06-10 16:53:54 -0500
+Processing by TasksController#index as HTML
+  [1m[36mTask Load (0.1ms)[0m  [1mSELECT "tasks".* FROM "tasks" [0m
+Completed 200 OK in 11ms (Views: 9.2ms | ActiveRecord: 0.1ms)
+  [1m[35m (0.9ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+Started GET "/" for 127.0.0.1 at 2013-06-10 16:53:54 -0500
+Processing by ListsController#index as HTML
+  [1m[35mList Load (0.2ms)[0m  SELECT "lists".* FROM "lists" 
+Completed 200 OK in 4ms (Views: 2.5ms | ActiveRecord: 0.2ms)
+Started GET "/lists/new" for 127.0.0.1 at 2013-06-10 16:53:54 -0500
+Processing by ListsController#new as HTML
+Completed 200 OK in 58ms (Views: 57.4ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+Started GET "/" for 127.0.0.1 at 2013-06-10 16:53:54 -0500
+Processing by ListsController#index as HTML
+  [1m[36mList Load (0.4ms)[0m  [1mSELECT "lists".* FROM "lists" [0m
+Completed 200 OK in 3ms (Views: 2.0ms | ActiveRecord: 0.4ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+  [1m[36m (0.6ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (4.5ms)[0m  [1mINSERT INTO "lists" ("created_at", "lists", "title", "updated_at") VALUES (?, ?, ?, ?)[0m  [["created_at", Mon, 10 Jun 2013 21:56:41 UTC +00:00], ["lists", nil], ["title", "Grocery List"], ["updated_at", Mon, 10 Jun 2013 21:56:41 UTC +00:00]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "lists" [0m
+Started GET "/lists" for 127.0.0.1 at 2013-06-10 16:56:41 -0500
+Processing by ListsController#index as HTML
+  [1m[35mList Load (0.2ms)[0m  SELECT "lists".* FROM "lists" 
+  Rendered lists/index.html.erb within layouts/application (4.7ms)
+Completed 200 OK in 18ms (Views: 15.4ms | ActiveRecord: 0.2ms)
+  [1m[36m (1.2ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "tasks" ("created_at", "title", "updated_at") VALUES (?, ?, ?)  [["created_at", Mon, 10 Jun 2013 21:56:41 UTC +00:00], ["title", "Walk Peggy"], ["updated_at", Mon, 10 Jun 2013 21:56:41 UTC +00:00]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "tasks" 
+Started GET "/tasks" for 127.0.0.1 at 2013-06-10 16:56:41 -0500
+Processing by TasksController#index as HTML
+  [1m[36mTask Load (0.1ms)[0m  [1mSELECT "tasks".* FROM "tasks" [0m
+Completed 200 OK in 6ms (Views: 4.4ms | ActiveRecord: 0.1ms)
+  [1m[35m (0.7ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Started GET "/" for 127.0.0.1 at 2013-06-10 16:56:41 -0500
+Processing by ListsController#index as HTML
+  [1m[35mList Load (0.2ms)[0m  SELECT "lists".* FROM "lists" 
+Completed 200 OK in 3ms (Views: 2.1ms | ActiveRecord: 0.2ms)
+Started GET "/lists/new" for 127.0.0.1 at 2013-06-10 16:56:41 -0500
+Processing by ListsController#new as HTML
+Completed 200 OK in 56ms (Views: 55.7ms | ActiveRecord: 0.0ms)
+Started POST "/lists" for 127.0.0.1 at 2013-06-10 16:56:41 -0500
+Processing by ListsController#create as HTML
+  Parameters: {"utf8"=>"✓", "list"=>{"title"=>"Grocery List"}, "commit"=>"Add List"}
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "lists" ("created_at", "lists", "title", "updated_at") VALUES (?, ?, ?, ?)  [["created_at", Mon, 10 Jun 2013 21:56:41 UTC +00:00], ["lists", nil], ["title", "Grocery List"], ["updated_at", Mon, 10 Jun 2013 21:56:41 UTC +00:00]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://www.example.com/
+Completed 302 Found in 3ms (ActiveRecord: 0.6ms)
+Started GET "/" for 127.0.0.1 at 2013-06-10 16:56:41 -0500
+Processing by ListsController#index as HTML
+  [1m[35mList Load (0.1ms)[0m  SELECT "lists".* FROM "lists" 
+Completed 200 OK in 4ms (Views: 2.9ms | ActiveRecord: 0.1ms)
+Started GET "/lists" for 127.0.0.1 at 2013-06-10 16:56:41 -0500
+Processing by ListsController#index as HTML
+  [1m[36mList Load (0.1ms)[0m  [1mSELECT "lists".* FROM "lists" [0m
+Completed 200 OK in 3ms (Views: 2.4ms | ActiveRecord: 0.1ms)
+  [1m[35m (0.7ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Started GET "/" for 127.0.0.1 at 2013-06-10 16:56:41 -0500
+Processing by ListsController#index as HTML
+  [1m[35mList Load (0.2ms)[0m  SELECT "lists".* FROM "lists" 
+Completed 200 OK in 3ms (Views: 1.9ms | ActiveRecord: 0.2ms)
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+  [1m[36m (0.7ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (4.5ms)[0m  [1mINSERT INTO "lists" ("created_at", "lists", "title", "updated_at") VALUES (?, ?, ?, ?)[0m  [["created_at", Mon, 10 Jun 2013 22:00:53 UTC +00:00], ["lists", nil], ["title", "Grocery List"], ["updated_at", Mon, 10 Jun 2013 22:00:53 UTC +00:00]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "lists" [0m
+Started GET "/lists" for 127.0.0.1 at 2013-06-10 17:00:53 -0500
+Processing by ListsController#index as HTML
+  [1m[35mList Load (0.2ms)[0m  SELECT "lists".* FROM "lists" 
+  Rendered lists/index.html.erb within layouts/application (4.5ms)
+Completed 200 OK in 17ms (Views: 14.3ms | ActiveRecord: 0.2ms)
+  [1m[36m (1.4ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "tasks" ("created_at", "title", "updated_at") VALUES (?, ?, ?)  [["created_at", Mon, 10 Jun 2013 22:00:53 UTC +00:00], ["title", "Walk Peggy"], ["updated_at", Mon, 10 Jun 2013 22:00:53 UTC +00:00]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "tasks" 
+Started GET "/tasks" for 127.0.0.1 at 2013-06-10 17:00:53 -0500
+Processing by TasksController#index as HTML
+  [1m[36mTask Load (0.1ms)[0m  [1mSELECT "tasks".* FROM "tasks" [0m
+Completed 200 OK in 6ms (Views: 4.6ms | ActiveRecord: 0.1ms)
+  [1m[35m (0.7ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Started GET "/" for 127.0.0.1 at 2013-06-10 17:00:53 -0500
+Processing by ListsController#index as HTML
+  [1m[35mList Load (0.2ms)[0m  SELECT "lists".* FROM "lists" 
+Completed 200 OK in 3ms (Views: 2.0ms | ActiveRecord: 0.2ms)
+Started GET "/lists/new" for 127.0.0.1 at 2013-06-10 17:00:53 -0500
+Processing by ListsController#new as HTML
+Completed 200 OK in 56ms (Views: 55.6ms | ActiveRecord: 0.0ms)
+Started POST "/lists" for 127.0.0.1 at 2013-06-10 17:00:53 -0500
+Processing by ListsController#create as HTML
+  Parameters: {"utf8"=>"✓", "list"=>{"title"=>"Grocery List"}, "commit"=>"Add List"}
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "lists" ("created_at", "lists", "title", "updated_at") VALUES (?, ?, ?, ?)  [["created_at", Mon, 10 Jun 2013 22:00:53 UTC +00:00], ["lists", nil], ["title", "Grocery List"], ["updated_at", Mon, 10 Jun 2013 22:00:53 UTC +00:00]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://www.example.com/
+Completed 302 Found in 3ms (ActiveRecord: 0.6ms)
+Started GET "/" for 127.0.0.1 at 2013-06-10 17:00:53 -0500
+Processing by ListsController#index as HTML
+  [1m[35mList Load (0.1ms)[0m  SELECT "lists".* FROM "lists" 
+Completed 200 OK in 4ms (Views: 2.9ms | ActiveRecord: 0.1ms)
+Started GET "/lists" for 127.0.0.1 at 2013-06-10 17:00:53 -0500
+Processing by ListsController#index as HTML
+  [1m[36mList Load (0.1ms)[0m  [1mSELECT "lists".* FROM "lists" [0m
+Completed 200 OK in 3ms (Views: 2.4ms | ActiveRecord: 0.1ms)
+  [1m[35m (0.8ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Started GET "/" for 127.0.0.1 at 2013-06-10 17:00:53 -0500
+Processing by ListsController#index as HTML
+  [1m[35mList Load (0.2ms)[0m  SELECT "lists".* FROM "lists" 
+Completed 200 OK in 3ms (Views: 2.0ms | ActiveRecord: 0.2ms)
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+  [1m[36m (0.6ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (4.6ms)[0m  [1mINSERT INTO "lists" ("created_at", "lists", "title", "updated_at") VALUES (?, ?, ?, ?)[0m  [["created_at", Mon, 10 Jun 2013 22:12:36 UTC +00:00], ["lists", nil], ["title", "Grocery List"], ["updated_at", Mon, 10 Jun 2013 22:12:36 UTC +00:00]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "lists" [0m
+Started GET "/lists" for 127.0.0.1 at 2013-06-10 17:12:36 -0500
+Processing by ListsController#index as HTML
+  [1m[35mList Load (0.2ms)[0m  SELECT "lists".* FROM "lists" 
+  Rendered lists/index.html.erb within layouts/application (7.1ms)
+Completed 500 Internal Server Error in 18ms
+  [1m[36m (1.2ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.6ms)[0m  INSERT INTO "tasks" ("created_at", "title", "updated_at") VALUES (?, ?, ?)  [["created_at", Mon, 10 Jun 2013 22:12:36 UTC +00:00], ["title", "Walk Peggy"], ["updated_at", Mon, 10 Jun 2013 22:12:36 UTC +00:00]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "tasks" 
+Started GET "/tasks" for 127.0.0.1 at 2013-06-10 17:12:36 -0500
+Processing by TasksController#index as HTML
+  [1m[36mTask Load (0.1ms)[0m  [1mSELECT "tasks".* FROM "tasks" [0m
+Completed 500 Internal Server Error in 3ms
+  [1m[35m (0.7ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+Started GET "/" for 127.0.0.1 at 2013-06-10 17:12:36 -0500
+Processing by ListsController#index as HTML
+  [1m[35mList Load (0.2ms)[0m  SELECT "lists".* FROM "lists" 
+Completed 500 Internal Server Error in 52ms
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+Started GET "/" for 127.0.0.1 at 2013-06-10 17:12:37 -0500
+Processing by ListsController#index as HTML
+  [1m[36mList Load (0.2ms)[0m  [1mSELECT "lists".* FROM "lists" [0m
+Completed 500 Internal Server Error in 3ms
+  [1m[35m (0.1ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+  [1m[36m (0.9ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (4.2ms)[0m  [1mINSERT INTO "lists" ("created_at", "lists", "title", "updated_at") VALUES (?, ?, ?, ?)[0m  [["created_at", Tue, 11 Jun 2013 00:53:04 UTC +00:00], ["lists", nil], ["title", "Grocery List"], ["updated_at", Tue, 11 Jun 2013 00:53:04 UTC +00:00]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "lists" [0m
+Started GET "/lists" for 127.0.0.1 at 2013-06-10 19:53:04 -0500
+Processing by ListsController#index as HTML
+  [1m[35mList Load (0.2ms)[0m  SELECT "lists".* FROM "lists" 
+  [1m[36mTask Load (0.2ms)[0m  [1mSELECT "tasks".* FROM "tasks" [0m
+  Rendered lists/index.html.erb within layouts/application (12.5ms)
+Completed 200 OK in 33ms (Views: 22.3ms | ActiveRecord: 0.6ms)
+  [1m[35m (0.9ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.6ms)[0m  [1mINSERT INTO "tasks" ("created_at", "list_id", "title", "updated_at") VALUES (?, ?, ?, ?)[0m  [["created_at", Tue, 11 Jun 2013 00:53:04 UTC +00:00], ["list_id", nil], ["title", "Walk Peggy"], ["updated_at", Tue, 11 Jun 2013 00:53:04 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "tasks" [0m
+Started GET "/tasks" for 127.0.0.1 at 2013-06-10 19:53:04 -0500
+Processing by TasksController#index as HTML
+  [1m[35mTask Load (0.1ms)[0m  SELECT "tasks".* FROM "tasks" 
+Completed 500 Internal Server Error in 52ms
+  [1m[36m (0.7ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+Started GET "/" for 127.0.0.1 at 2013-06-10 19:53:04 -0500
+Processing by ListsController#index as HTML
+  [1m[36mList Load (0.2ms)[0m  [1mSELECT "lists".* FROM "lists" [0m
+  [1m[35mTask Load (0.1ms)[0m  SELECT "tasks".* FROM "tasks" 
+Completed 200 OK in 6ms (Views: 4.9ms | ActiveRecord: 0.3ms)
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+Started GET "/" for 127.0.0.1 at 2013-06-10 19:53:04 -0500
+Processing by ListsController#index as HTML
+  [1m[36mList Load (0.2ms)[0m  [1mSELECT "lists".* FROM "lists" [0m
+  [1m[35mTask Load (0.1ms)[0m  SELECT "tasks".* FROM "tasks" 
+Completed 200 OK in 6ms (Views: 4.2ms | ActiveRecord: 0.2ms)
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+  [1m[36m (0.7ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (4.8ms)[0m  [1mINSERT INTO "lists" ("created_at", "title", "updated_at") VALUES (?, ?, ?)[0m  [["created_at", Tue, 11 Jun 2013 01:33:35 UTC +00:00], ["title", "Grocery List"], ["updated_at", Tue, 11 Jun 2013 01:33:35 UTC +00:00]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "lists" [0m
+Started GET "/lists" for 127.0.0.1 at 2013-06-10 20:33:35 -0500
+Processing by ListsController#index as HTML
+  [1m[35mList Load (0.2ms)[0m  SELECT "lists".* FROM "lists" 
+  [1m[36mTask Load (0.2ms)[0m  [1mSELECT "tasks".* FROM "tasks" [0m
+  Rendered lists/index.html.erb within layouts/application (13.6ms)
+Completed 200 OK in 35ms (Views: 24.2ms | ActiveRecord: 0.6ms)
+  [1m[35m (1.3ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.6ms)[0m  [1mINSERT INTO "tasks" ("created_at", "title", "updated_at") VALUES (?, ?, ?)[0m  [["created_at", Tue, 11 Jun 2013 01:33:35 UTC +00:00], ["title", "Walk Peggy"], ["updated_at", Tue, 11 Jun 2013 01:33:35 UTC +00:00]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "tasks" [0m
+Started GET "/tasks" for 127.0.0.1 at 2013-06-10 20:33:35 -0500
+Processing by TasksController#index as HTML
+  [1m[35mTask Load (0.1ms)[0m  SELECT "tasks".* FROM "tasks" 
+Completed 500 Internal Server Error in 51ms
+  [1m[36m (0.7ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+Started GET "/" for 127.0.0.1 at 2013-06-10 20:33:35 -0500
+Processing by ListsController#index as HTML
+  [1m[36mList Load (0.2ms)[0m  [1mSELECT "lists".* FROM "lists" [0m
+  [1m[35mTask Load (0.1ms)[0m  SELECT "tasks".* FROM "tasks" 
+Completed 200 OK in 6ms (Views: 4.6ms | ActiveRecord: 0.3ms)
+  [1m[36m (0.2ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+Started GET "/" for 127.0.0.1 at 2013-06-10 20:33:35 -0500
+Processing by ListsController#index as HTML
+  [1m[36mList Load (0.2ms)[0m  [1mSELECT "lists".* FROM "lists" [0m
+  [1m[35mTask Load (0.1ms)[0m  SELECT "tasks".* FROM "tasks" 
+Completed 200 OK in 6ms (Views: 4.5ms | ActiveRecord: 0.2ms)
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
