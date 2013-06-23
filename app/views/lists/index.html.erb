@@ -2,7 +2,7 @@
 <h2>Lists</h2>
 <ul>
   <% @lists.each do |list| %>
-  <li><%= list.title %>, <%= list.id %> <%= link_to 'Show', list %> <%= link_to 'Remove', list, :confirm => 'Are you sure?', :method => :delete %>
+  <li><%= list.title %><%= link_to 'Show', list %> <%= link_to 'Remove', list, :confirm => 'Are you sure?', :method => :delete %>
   <% end %>
 
 <h4>New List</h4>
