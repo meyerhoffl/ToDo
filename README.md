@@ -7,20 +7,19 @@ My very first Rails application for the Nashville Software School; its purpose i
 
 Usage
 =======
-This is a standard rails app. To run the tests, use `rake`. To run the app, use `rails s`.
+This is a standard rails app. To set up the database, run rake db:migrate. To run the app, use `rails s`.
 
 Features
 ==========
 1. User should be able to enter and view a list of tasks.
-2. User should be able to edit tasks.
+2. User should be able to mark tasks as completed.
 3. User should be able to maintain multiple lists.
 
 
 Project State
 ===============
 
-User can now enter and view a list of tasks, and maintain multiple lists of multiple tasks. The ability to mark tasks 
-as completed still needs to be added.
+User can now enter and view a list of tasks, and maintain multiple lists of multiple tasks, marking tasks as completed for each list.
 
 Author
 ============
