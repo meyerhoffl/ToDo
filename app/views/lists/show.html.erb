@@ -4,13 +4,13 @@
 
 
 <% @list.tasks.each do |task|%>
-<p><%= task.title %></p>
+<p><%= task.title %><%= button_to "Complete", complete_task_path(@list.id, task.id) %></p>
 <% end %>
 
 
 
 <h4>Add Task</h4>
-<%= form_for [@list, @task] do |f| %>
+<%= form_for [@list, @list.tasks.new] do |f| %>
   <%= f.text_field :title %>
   <%= f.submit "Add Task" %>
 <% end %>
