@@ -1,3 +1,0 @@
-class ListTasksController < ApplicationController
-
-end
