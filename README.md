@@ -3,7 +3,7 @@ ToDo
 
 Purpose
 ==========
-My very first Rails application for the Nashville Software School; it's purpose is as an exercise to learn Rails.
+My very first Rails application for the Nashville Software School; its purpose is as an exercise to learn Rails.
 
 Usage
 =======
