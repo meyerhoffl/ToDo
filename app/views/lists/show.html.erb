@@ -1,7 +1,7 @@
 
 
   <h1><%= @list.title %></h1>
-  <h4>Tasks to Do</h4>
+  <h4>Incomplete Tasks</h4>
 
 <% @list.tasks.incomplete.each do |task|%>
 <p><%= task.title %><%= button_to "Complete", complete_task_path(@list.id, task.id) %></p>
