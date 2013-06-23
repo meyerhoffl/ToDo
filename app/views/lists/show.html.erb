@@ -1,13 +1,17 @@
 
 
-  <h1><%= @list.title %>, <%= @list.id %></h1>
+  <h1><%= @list.title %></h1>
+  <h4>Tasks to Do</h4>
 
-
-<% @list.tasks.each do |task|%>
+<% @list.tasks.incomplete.each do |task|%>
 <p><%= task.title %><%= button_to "Complete", complete_task_path(@list.id, task.id) %></p>
 <% end %>
 
+  <h4>Completed Tasks</h4>
 
+<% @list.tasks.each do |task|%>
+<p><%= task.title %></p>
+<% end %>
 
 <h4>Add Task</h4>
 <%= form_for [@list, @list.tasks.new] do |f| %>
