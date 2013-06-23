@@ -11,15 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130623123252) do
-
-  create_table "list_tasks", :force => true do |t|
-    t.string   "task_id"
-    t.string   "list_id"
-    t.string   "date"
-    t.datetime "created_at", :null => false
-    t.datetime "updated_at", :null => false
-  end
+ActiveRecord::Schema.define(:version => 20130623130756) do
 
   create_table "lists", :force => true do |t|
     t.string   "title"

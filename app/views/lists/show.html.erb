@@ -4,7 +4,7 @@
 
 
 <% @list.tasks.each do |task|%>
-<p><%= task.title %><%= button_to "Complete", complete_task_path(@list.id, task.id) %></p>
+<p><%= task.title %></p>
 <% end %>
 
 
