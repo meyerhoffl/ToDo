@@ -2,32 +2,8 @@
 <h2>Lists</h2>
 <ul>
   <% @lists.each do |list| %>
-  <li><%= list.title %>, <%= list.id %> <%= link_to 'Show', list %> <%= link_to 'Edit', edit_list_path(list) %> <%= link_to 'Remove', list, :confirm => 'Are you sure?', :method => :delete %> <%= link_to 'Update' %>
+  <li><%= list.title %>, <%= list.id %> <%= link_to 'Show', list %> <%= link_to 'Remove', list, :confirm => 'Are you sure?', :method => :delete %>
   <% end %>
-  <ul>
-  <% @tasks.each do |task| %>
-  <li><%= task.title %>, <%= task.id %> <%= link_to 'Remove', task, :confirm => 'Are you sure?', :method => :delete %>
-  </li>
-  <% end %>
-</ul>
-</li>
-</ul>
-
-  <h4>New Task</h4>
-<%= form_for @list_task do |f|%>
-<select id="task_list_id" name = "">
-  <% @lists.each do |list| %>
-    <option value=<%= list.id %>><%= list.title %>, <%= list.id %> </option>
-<% end %>
-</select>
-<%= form_for @task do |t| %>
-  <%= t.label "Add Task" %>
-  <%= t.text_field :title %>
-  <%= t.label "To this list:" %>
-  <%= t.submit "Add Task" %>
-  <% end %>
-<% end %>
-
 
 <h4>New List</h4>
 <%= form_for @list do |f| %>

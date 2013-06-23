@@ -2,8 +2,6 @@ class ListsController < ApplicationController
   def index
     @list = List.new
     @lists = List.all
-    @task = Task.new
-    @tasks = Task.all
   end
 
   def new
@@ -11,9 +9,13 @@ class ListsController < ApplicationController
   end
 
   def create
-    @list = List.create ( params[:list] )
-    flash[:notice] = "Your list has been added"
-    redirect_to :root
+    @list = List.new( params[:list] )
+    if @list.save
+      flash[:notice] = "Your list has been added"
+      redirect_to :root
+    else
+      flash[:notice] = "Problems"
+    end
   end
 
   def show

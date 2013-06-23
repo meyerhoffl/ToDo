@@ -1,8 +1,16 @@
 ToDo::Application.routes.draw do
   root to: "lists#index"
 
-  resources :tasks, only: [:index, :new, :create, :destroy]
-  resources :lists, only: [:index, :new, :create, :show, :edit, :destroy]
+
+  resources :lists do
+    resources :tasks
+  end
+
+
+  match 'lists/:list_id/tasks/:id/complete' => 'tasks#complete', :as => :complete_task
+
+  root :to => 'lists#index'
+
 
 
   # The priority is based upon order of creation:

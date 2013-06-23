@@ -6,7 +6,10 @@ class PostTaskTest < ActionDispatch::IntegrationTest
     click_link 'Add Task'
     fill_in 'Title', with: 'Buy presents'
     click_button 'Submit Task'
-    visit '/tasks'
+    visit '/lists'
     assert_include page.body, "Buy presents"
   end
 end
+
+
+
