@@ -11,15 +11,10 @@ This is a standard rails app. To set up the database, run rake db:migrate. To ru
 
 Features
 ==========
-1. User should be able to enter and view a list of tasks.
-2. User should be able to mark tasks as completed.
-3. User should be able to maintain multiple lists.
+1. User can enter and view a list of tasks.
+2. User can mark tasks as completed.
+3. User can maintain multiple lists.
 
-
-Project State
-===============
-
-User can now enter and view a list of tasks, and maintain multiple lists of multiple tasks, marking tasks as completed for each list.
 
 Author
 ============
